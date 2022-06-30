@@ -3,9 +3,9 @@ const path = require('path');
 const {PDFDocument} = require('pdf-lib');
 const { readFileSync } = require("fs");
 const getCurp = require('../helpers/curp');
-const getData = require('../Services/googleService');
+const getData = require('../services/googleService');
 const SelectOption = require('../helpers/optionsSelect');
-const saveFile = require('../Services/driveService');
+const saveFile = require('../services/driveService');
 const { nextTick } = require('process');
 
 const estado_civil = (estado_civil) => {

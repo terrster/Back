@@ -1,7 +1,7 @@
 'user strict'
 
 const User = require("../../models/User");
-const mailManager = require("../Services/mailManager");
+const mailManager = require("../services/mailManager");
 
 const userController = {
 

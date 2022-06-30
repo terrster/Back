@@ -16,9 +16,9 @@ const hubspotController = require("../controllers/hubspotController");
 
 const privateKey = fs.readFileSync(path.resolve("config/jwt/private.key"));
 const options = require("../../../config/jwt/jwt_options");
-const validationsManager = require("../Services/validationsManager");
-const tokenManager = require("../Services/tokenManager");
-const mailManager = require("../Services/mailManager");
+const validationsManager = require("../services/validationsManager");
+const tokenManager = require("../services/tokenManager");
+const mailManager = require("../services/mailManager");
 
 const authController = {
 

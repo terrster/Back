@@ -81,6 +81,7 @@ class Server{
 
     initialize(){
         try{
+            console.log('Holabb')
             this.middlewares();
             this.routing();
             this.server.listen(this.port, async() => {
