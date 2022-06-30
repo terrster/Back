@@ -1,0 +1,1368 @@
+{
+  "fields": [
+    { "name": "Folio", "type": "PDFTextField", "cell": "" },
+    {
+      "name": "Crédito Solicitado_Producto/Destino-Otro",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Crédito Solicitado_Tipo de Propiedad-Otro",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Monto del Crédito en moneda nacional",
+      "type": "PDFTextField",
+      "cell": "U2"
+    },
+    {
+      "name": "Valor aproximado del inmueble",
+      "type": "PDFTextField",
+      "cell": "T2"
+    },
+    {
+      "name": "% aproximado del financiamiento",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Credito Solicitado_Uso de la vivienda",
+      "type": "PDFCheckBox",
+      "options": ["/Principal", "/Descanso", "/Inversi#F3n", "/Yes"],
+      "cell": ""
+    },
+    {
+      "name": "Credito Solicitado_Tipo de propiedad",
+      "type": "PDFCheckBox",
+      "options": [
+        "/Casa#20sola",
+        "/Casa#20en#20condominio",
+        "/Departamento",
+        "/Otro"
+      ],
+      "cell": ""
+    },
+    {
+      "name": "Credito Solicitado_Comisión",
+      "type": "PDFCheckBox",
+      "options": [
+        "/Comisi#F3n#20por#20apertura",
+        "/Comisi#F3n#20por#20prepago"
+      ],
+      "cell": ""
+    },
+    {
+      "name": "Credito Solicitado_Plazos",
+      "type": "PDFCheckBox",
+      "options": ["/5", "/10", "/15", "/7", "/20"],
+      "cell": ""
+    },
+    {
+      "name": "Credito Solicitado_Esquema de financiamiento",
+      "type": "PDFCheckBox",
+      "options": ["/7x5", "/Valora", "/Pagos#20oportunos"],
+      "cell": ""
+    },
+    {
+      "name": "Credito Solicitado_Apoyo INFONAVIT",
+      "type": "PDFCheckBox",
+      "options": ["/S#ED", "/No"],
+      "cell": ""
+    },
+    {
+      "name": "Credito Solicitado_Producto/Destino",
+      "type": "PDFCheckBox",
+      "options": [
+        "/Pago#20Pasivos#20+#20Renovaci#F3n",
+        "/Pago#20Pasivos",
+        "/Renovaci#F3n#20+#20Adquisici#F3n",
+        "/Renovaci#F3n",
+        "/Construcci#F3n",
+        "/Liquidez",
+        "/Fovissste",
+        "/Cofinavit",
+        "/Preventa",
+        "/Adquisici#F3n",
+        "/CI+CB"
+      ],
+      "cell": "Z2"
+    },
+    {
+      "name": "Datos Personales_Apellido paterno",
+      "type": "PDFTextField",
+      "cell": "C2"
+    },
+    {
+      "name": "Datos Personales_Apellido materno",
+      "type": "PDFTextField",
+      "cell": "B2"
+    },
+    {
+      "name": "Datos Personales_Nombre(s)",
+      "type": "PDFTextField",
+      "cell": "A2"
+    },
+    { "name": "Datos Personales_RFC", "type": "PDFTextField", "cell": "W2" },
+    { "name": "Datos Personales_CURP", "type": "PDFTextField", "cell": "X2" },
+    {
+      "name": "Datos Personales_Edad-Años",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Datos Personales_Edad-Meses",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Datos Personales_Fecha de nacimiento-Día",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Datos Personales_Fecha de nacimiento-Mes",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Datos Personales_Fecha de nacimiento-Año",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Datos Personales_Entidad de nacimiento",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    { "name": "Datos Personales_Pais", "type": "PDFTextField", "cell": "" },
+    {
+      "name": "Datos Personales_Escolaridad-Otro",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Datos Personales_Correo electrónico",
+      "type": "PDFTextField",
+      "cell": "D2"
+    },
+    { "name": "Datos Personales_Celular", "type": "PDFTextField", "cell": "F2" },
+    {
+      "name": "Datos Personales_No de identificación",
+      "type": "PDFTextField",
+      "cell": "H2"
+    },
+    {
+      "name": "Datos Personales_Tipo de identificación",
+      "type": "PDFTextField",
+      "cell": "G2"
+    },
+    {
+      "name": "Datos Personales_País emisor de la identificación",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Datos Personales_Vigencia de identificación",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    { "name": "Datos Personales_NSS", "type": "PDFTextField", "cell": "BD2" },
+    {
+      "name": "Datos personales_Nacionalidad",
+      "type": "PDFCheckBox",
+      "options": ["/Mexicana", "/Extranjera"],
+      "cell": ""
+    },
+    {
+      "name": "Datos personales_Escolaridad",
+      "type": "PDFCheckBox",
+      "options": [
+        "/Carrera#20Comercial",
+        "/Pasante",
+        "/Otro",
+        "/Licenciatura",
+        "/Preparatoria",
+        "/Maestr#EDa"
+      ],
+      "cell": ""
+    },
+    {
+      "name": "Datos personales_Sexo",
+      "type": "PDFCheckBox",
+      "options": ["/Femenino", "/Masculino"],
+      "cell": ""
+    },
+    {
+      "name": "Datos Personales_Número de dependientes",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Datos Personales_Estado civil-Otro",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Datos Personales_Nombre del Conyuge",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Datos Personales_Conyuge-RFC",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Datos Personales_Conyuge-CURP",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    { "name": "Domicilio Actual_Calle", "type": "PDFTextField", "cell": "" },
+    {
+      "name": "Domicilio Actual_Num ext / int",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Domicilio Actual_Colonia / Fraccionamiento",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Domicilio Actual_Códgo Postal",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    { "name": "Domicilio Actual_Alcaldía", "type": "PDFTextField", "cell": "" },
+    { "name": "Domicilio Actual_Ciudad", "type": "PDFTextField", "cell": "" },
+    { "name": "Domicilio Actual_Estado", "type": "PDFTextField", "cell": "" },
+    { "name": "Domicilio Actual_País", "type": "PDFTextField", "cell": "" },
+    {
+      "name": "Domicilio Actual_Tiempo de residencia-En el domicilio",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Domicilio Actual_Tiempo de residencia-En la población",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Domicilio Actual_Tipo de vivienda-Otro",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Domicilio Actual_Lada / Teléfono",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Emplero Actual_Ocupación",
+      "type": "PDFCheckBox",
+      "options": [
+        "/Accionista#20#2F#20Arrendador",
+        "/Agricultor",
+        "/Ama#20de#20casa",
+        "/Artista",
+        "/Chofer",
+        "/Comerciante#20independiente",
+        "/Estudiante",
+        "/Empresario#20#2F#20Propietario",
+        "/Empleado",
+        "/Director#20#2F#20Subdirector",
+        "/Director#20General",
+        "/Desempleo#20con#20ingresos",
+        "/Gerente",
+        "/Guardia",
+        "/Industrial",
+        "/Jefe#20de#20departamento",
+        "/Jubilado",
+        "/Maestro",
+        "/Otros#20#28Empleado#29",
+        "/Otrossss",
+        "/Otro#20trabjador",
+        "/M#E9dico",
+        "/Mandos#20Medios",
+        "/Profesionista#20indpendiente",
+        "/Reparador#20#2F",
+        "/Secretaria",
+        "/T#E9cnico#20especializado",
+        "/T#E9cnico#20independiente",
+        "/Ventas"
+      ],
+      "cell": ""
+    },
+    {
+      "name": "Emplero Actual_Sector Laboral",
+      "type": "PDFCheckBox",
+      "options": [
+        "/Empleado#20publico",
+        "/Independiente",
+        "/Propietario#20empresa",
+        "/Empleado#20Privado"
+      ],
+      "cell": ""
+    },
+    {
+      "name": "Domicilio Actual_Tipo de vivienda",
+      "type": "PDFCheckBox",
+      "options": ["/Propia", "/Hipoteca", "/Otro", "/Rentada", "/Familiares"],
+      "cell": ""
+    },
+    {
+      "name": "Datos personales_Regimen",
+      "type": "PDFCheckBox",
+      "options": ["/Sociedad#20Conyugal", "/Separaci#F3n#20de#20bienes"],
+      "cell": ""
+    },
+    {
+      "name": "Datos personales_Estado civil",
+      "type": "PDFCheckBox",
+      "options": ["/Soltero", "/Casado", "/Otro"],
+      "cell": ""
+    },
+    {
+      "name": "Empleo Actual_Nombre de la empresa",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Empleo Actual_Giro de la empresa",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Empleo Actual_Puesto / Cargo",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Empleo Actual_Antigüedad-Años",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Empleo Actual_Antigüedad-Meses",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Empleo Actual_Lada / Teléfono / Extensión",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Empleo Actual_Tipo de contrato-Otro",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Domicilio de la empresa_Calle",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Domicilio de la empresa_Num ext / int",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Domicilio de la empresa_Colina / fraccionamiento",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Domicilio de la empresa_Código Postal",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Domicilio de la empresa_Alcaldía",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Domicilio de la empresa_Ciudad",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Domicilio de la empresa_Estado",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Domicilio de la empresa_Pais",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Empleo Anterior_Nombre de la empresa",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Empleo Anterior_Actividad de la empresa",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Empleo Anterior_Puesto / cargo",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Empleo Anterior_Antigüedad-Años",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Empleo Anterior_Antigüedad-Meses",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Empleo Anterior_Lada / Teléfono / Extensión",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Empleo Anterior_Tipo de contrato-Otro",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Referencias Bancarias_Depósitos_Tipo de Cuenta-1",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Referencias Bancarias_Depósitos_Institución-1",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Referencias Bancarias_Depósitos_Tipo de Cuenta-2",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Referencias Bancarias_Depósitos_Institución-2",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Referencias Bancarias_Depósitos_Tipo de Cuenta-3",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Referencias Bancarias_Depósitos_Institución-3",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Emplero Actual_Tipo de contrato laboral",
+      "type": "PDFCheckBox",
+      "options": ["/Fijo", "/Otro", "/Eventual", "/Independiente"],
+      "cell": ""
+    },
+    {
+      "name": "Emplero Anterior_Tipo de contrato",
+      "type": "PDFCheckBox",
+      "options": ["/Fijo", "/Otro", "/Eventual", "/Independiente"],
+      "cell": ""
+    },
+    { "name": "Datos del_Nombre", "type": "PDFTextField", "cell": "" },
+    { "name": "Datos del_RFC", "type": "PDFTextField", "cell": "" },
+    { "name": "Datos del_CURP", "type": "PDFTextField", "cell": "" },
+    { "name": "Datos del_Edad-Años", "type": "PDFTextField", "cell": "" },
+    { "name": "Datos del_Edad-Meses", "type": "PDFTextField", "cell": "" },
+    {
+      "name": "Datos del_Lugar de Nacimiento",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Datos del_Tipo de identificación",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Datos del_País emisor de la identificación",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Datos del_No de identificación",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Datos del_Vigencia identificación",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Datos del_Correo electrónico",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    { "name": "Datos del_Celular", "type": "PDFTextField", "cell": "" },
+    { "name": "Datos del_Parentesco-Otro", "type": "PDFTextField", "cell": "" },
+    {
+      "name": "Datos del_Parentesco con el solicitante",
+      "type": "PDFCheckBox",
+      "options": [
+        "/Esposo#20#28a#29",
+        "/Otro",
+        "/Padre#20#2F#20Madre",
+        "/Hijo"
+      ],
+      "cell": ""
+    },
+    {
+      "name": "Datos del_Nacionalidad",
+      "type": "PDFCheckBox",
+      "options": ["/Mexicana", "/Extranjera"],
+      "cell": ""
+    },
+    {
+      "name": "Datos del_1",
+      "type": "PDFCheckBox",
+      "options": ["/Coacreditado", "/Obligado#20Solidario"],
+      "cell": ""
+    },
+    {
+      "name": "Datos del_Fecha de nacimiento",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Crédito Actuales_Tarjeta_Tipo de Crédito-1",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Crédito Actuales_Tarjeta_Institución-1",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Crédito Actuales_Núm de cuenta-1",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Crédito Actuales_Tarjeta_Tipo de Crédito-2",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Crédito Actuales_Tarjeta_Institución-2",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Crédito Actuales_Núm de cuenta-2",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Crédito Actuales_Tarjeta_Tipo de Crédito-3",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Crédito Actuales_Tarjeta_Institución-3",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Crédito Actuales_Núm de cuenta-3",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    { "name": "Datos del_Domicilio_Calle", "type": "PDFTextField", "cell": "" },
+    {
+      "name": "Datos del_Domicilio_Num ext / int",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Datos del_Domicilio_Colonia / Fraccionamiento",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Datos del_Domicilio_Alcaldía / Municipio",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Datos del_Domicilio_Código Postal",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Datos del_Domicilio_Estado",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Datos del_Domicilio_Lada / Teléfono",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Datos del_Domicilio_Ocupación",
+      "type": "PDFCheckBox",
+      "options": [
+        "/Accionista#20#2F#20Arrendador",
+        "/Agricultor#20#2F#20Ganadero",
+        "/Ama#20de#20casa",
+        "/Artista#20#2F#20Deportista",
+        "/Chofer",
+        "/Comerciante#20independiente",
+        "/Estudiante",
+        "/Empresario,#20Propietario",
+        "/Empleado",
+        "/Director#20Subdirector",
+        "/Director#20General",
+        "/Desempleo#20con#20Ingresos",
+        "/Gerente",
+        "/Guardia",
+        "/Industrial",
+        "/Jefe#20de#20departemento",
+        "/JUbilado",
+        "/Maestro",
+        "/Otros#20#28Empleado#29",
+        "/Otross",
+        "/Otros#20-#20Trabajador",
+        "/M#E9dico",
+        "/Mandos#20Medios",
+        "/Profesionista#20independiente",
+        "/Reparador",
+        "/Secretaria",
+        "/T#E9cnico#20especializado",
+        "/T#E9cnico#20independiente",
+        "/Ventas"
+      ],
+      "cell": ""
+    },
+    {
+      "name": "Datos del_Domicilio_Sector Laboral",
+      "type": "PDFCheckBox",
+      "options": [
+        "/Empleado#20P#FAblico",
+        "/Independiente",
+        "/Propietarios#20Empresa",
+        "/Empleado#20Privado"
+      ],
+      "cell": ""
+    },
+    {
+      "name": "Datos del_Domicilio",
+      "type": "PDFCheckBox",
+      "options": ["/Mismo#20del#20acreditado"],
+      "cell": ""
+    },
+    {
+      "name": "Datos del_Domicilio_Nombre de la empresa",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Datos del_Domicilio_Giro de la empresa",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Datos del_Domicilio_Puesto / Cargo",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Datos del_Domicilio_Antigüedad-Años",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Datos del_Domicilio_Antigüedad-Meses",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Referencias Bancarias del_Depósito_Tipo de cuenta-1",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Referencias Bancarias del_Depósito_Institución-1",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Referencias Bancarias del_Depósito_Tipo de cuenta-2",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Referencias Bancarias del_Depósito_Institución-2",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Referencias Bancarias del_Depósito_Tipo de cuenta-3",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Referencias Bancarias del_Depósito_Institución-3",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Crédito Actuales del_Tarjeta_Tipo de Crédito-1",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Crédito Actuales del_Tarjeta_Institución-1",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Crédito Actuales del_Num de Cuenta-1",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Crédito Actuales del_Tarjeta_Tipo de Crédito-2",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Crédito Actuales del_Tarjeta_Institución-2",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Crédito Actuales del_Num de Cuenta-2",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Crédito Actuales del_Tarjeta_Tipo de Crédito-3",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Crédito Actuales del_Tarjeta_Institución-3",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Crédito Actuales del_Num de Cuenta-3",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Ingresos_Solicitante_Fijo-1",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Ingresos_Coacreditado_Fijo-1",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Ingresos_Solicitante_Otros ingresos-1",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Ingresos_Coacreditado_Otros ingresos-1",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Ingresos_Solicitante_Fuente-1",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Ingresos_Coacreditado_Fuente-1",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Ingresos_Solicitante_Total ingresos-1",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Ingresos_Coacreditado_Total ingresos-1",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Referencias Personales_Personal_Apellido Paterno",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Referencias Personales_Personal_Apellido Materno",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Referencias Personales_Personal_Nombre (s)",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Referencias Personales_Personal_Tiempo de conocerlo",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Referencias Personales_Personal_Lada / Teléfono/ Extensión",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Referencias Personales_Personal_Casa",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Referencias Personales_Personal_Oficina",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Referencias Personales_Personal_Celular",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Referencias Personales_Familiar_Apellido Paterno",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Referencias Personales_Familiar_Apellido Materno",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Referencias Personales_Familiar_Nombre (s)",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Referencias Personales_Familiar_Parentesco",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Referencias Personales_Familiar_Lada/Teléfono/Extensión",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Referencias Personales_Familiar_Casa",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Referencias Personales_Familiar_Oficina",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Referencias Personales_Familiar_Celular",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Ingresos_Consolidar",
+      "type": "PDFCheckBox",
+      "options": ["/S#ED", "/No"],
+      "cell": ""
+    },
+    {
+      "name": "Bienes a nombre del cliente_Inmueble_Valor estimado-1",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Bienes a nombre del cliente_Inmueble_Valor estimado-2",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Bienes a nombre dle Cliente_Inmmueble_Tipo_Otro-1",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Bienes a nombre dle Cliente_Inmmueble_Tipo_Otro-2",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Bienes a nombre dle Cliente_Auto_Marca-1",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Bienes a nombre dle Cliente_Auto_Modelo-1",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Bienes a nombre dle Cliente_Auto_Valor estimado-1",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Bienes a nombre dle Cliente_Auto_Marca-2",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Bienes a nombre dle Cliente_Auto_Modelo-2",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Bienes a nombre dle Cliente_Auto_Valor estimado-2",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Bienes a nombre dle Cliente_Cuenta para el Manejo_Num de cuenta-1",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Bienes a nombre dle Cliente_Cuenta para el Manejo_Antigüedad como cliente-1",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Bienes a nombre del cliente_Cuenta para el Manejo_Deseas trámitar Desea tramitar TDC",
+      "type": "PDFCheckBox",
+      "options": ["/S#ED", "/No"],
+      "cell": ""
+    },
+    {
+      "name": "Bienes a nombre del cliente_Cuenta para el Manejo_Tienes servicios de",
+      "type": "PDFCheckBox",
+      "options": ["/N#F3mina", "/Servicios", "/Ninguno"],
+      "cell": ""
+    },
+    {
+      "name": "Bienes a nombre del cliente_Inmueble_Tipo-1",
+      "type": "PDFCheckBox",
+      "options": [
+        "/Casa-1",
+        "/Departamento-1",
+        "/Oficina-1",
+        "/Local#20comercial-1",
+        "/Otro-1",
+        "/Terreno-1"
+      ],
+      "cell": ""
+    },
+    {
+      "name": "Bienes a nombre del cliente_Inmueble_Tipo-2",
+      "type": "PDFCheckBox",
+      "options": [
+        "/Casa-2",
+        "/Departamento-2",
+        "/Oficina-2",
+        "/Local#20comercial-2",
+        "/Otro-2",
+        "/Terreno-2"
+      ],
+      "cell": ""
+    },
+    {
+      "name": "Proveedor de recursos_Nombre Completo o Razón Social",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Proveedor de recursos_Dirección",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Proveedor de recursos_Naturaleza de la relación",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Proveedor de recursos_RFC con homoclave",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Proveedor de recursos_Negocio u ocupación",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Proveedor de recursos_Fecha de Nacimiento",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Proveedor de recursos_Lugar de Constitución",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Proveedor de recursos_Nacionalidad",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Proveedor de recursos_Firma del Solicitante",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Proveedor de Recursos_¿?",
+      "type": "PDFCheckBox",
+      "options": ["/S#ED", "/No"],
+      "cell": ""
+    },
+    {
+      "name": "Persona Politicamente expuesta Solicitante_Cargo Público",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Persona Politicamente expuesta Solicitante_Breve descripción de función",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Persona Politicamente expuesta Solicitante_Período en el cargo",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Persona Politicamente expuesta Solicitante_País o Países",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Persona Politicamente expuesta Solicitante_Dependencia",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Persona Politicamente expuesta Solicitante_Parentesco_Relación",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Persona Politicamente expuesta Solicitante_Parentesco_Breve descripción",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Persona Politicamente expuesta Solicitante_Parentesco_Nombre",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Persona Politicamente expuesta Solicitante_Parentesco_Períso en el cargo",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Persona Politicamente expuesta Solicitante_Parentesco_Crago Público",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Persona Politicamente expuesta Solicitante_Parentesco_Paises o Pais",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Persona Politicamente expuesta Solicitante_Parentesco_Dependencia",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Persona politicamente expuesta Solicitante_Firma Solicitante",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Persona politicamente expuesta Solicitante_Fecha",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Persona Politicamente expuesta Solicitante_¿?_Parentesco",
+      "type": "PDFCheckBox",
+      "options": ["/S#ED", "/No"],
+      "cell": ""
+    },
+    {
+      "name": "Persona Politicamente expuesta Solicitante_¿?",
+      "type": "PDFCheckBox",
+      "options": ["/S#ED", "/No"],
+      "cell": ""
+    },
+    {
+      "name": "Persona Politicamente expuesta Coacreditado_Cargo Público",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Persona Politicamente expuesta Coacreditado_Período en el cargo",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Persona Politicamente expuesta Coacreditado_Dependencia",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Persona Politicamente expuesta Coacreditado_Breve descripción",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Persona Politicamente expuesta Coacreditado_País o Países",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Persona Politicamente expuesta Coacreditado_Parentesco_Relación",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Persona Politicamente expuesta Coacreditado_Parentesco_Nombre",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Persona Politicamente expuesta Coacreditado_Parentesco_Cargo Público",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Persona Politicamente expuesta Coacreditado_Parentesco_Dependencia",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Persona politicamente expuesta Coacreditado_Firma Coacreditado",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Persona Politicamente expuesta Coacreditado_Parentesco_Breve descripción",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Persona Politicamente expuesta Coacreditado_Parentesco_Período en el cargo",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Persona Politicamente expuesta Coacreditado_Parentesco_País o Países",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Persona Politicamente expuesta Coacreditado_¿?_Parentesco",
+      "type": "PDFCheckBox",
+      "options": ["/S#ED", "/No"],
+      "cell": ""
+    },
+    {
+      "name": "Persona Politicamente expuesta Coacreditado_¿?",
+      "type": "PDFCheckBox",
+      "options": ["/S#ED", "/No"],
+      "cell": ""
+    },
+    {
+      "name": "Persona politicamente expuesta Coacreditado_Fecha",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Declaración_Fima Coacreditado",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Declaración_Fima Solicitante",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Antecesdentes Médico_¿?_1_Titular",
+      "type": "PDFCheckBox",
+      "options": ["/S#ED", "/No"],
+      "cell": ""
+    },
+    {
+      "name": "Antecesdentes Médico_¿?_1_Coacreditado",
+      "type": "PDFCheckBox",
+      "options": ["/Si", "/No"],
+      "cell": ""
+    },
+    {
+      "name": "Antecesdentes Médico_¿?_1_Obligado Solidario",
+      "type": "PDFCheckBox",
+      "options": ["/Si", "/No"],
+      "cell": ""
+    },
+    {
+      "name": "Antecesdentes Médico_¿?_2_Obligado Solidario",
+      "type": "PDFCheckBox",
+      "options": ["/Si", "/No"],
+      "cell": ""
+    },
+    {
+      "name": "Antecesdentes Médico_¿?_3_Obligado Solidario",
+      "type": "PDFCheckBox",
+      "options": ["/Si", "/No"],
+      "cell": ""
+    },
+    {
+      "name": "Antecesdentes Médico_¿?_4_Obligado Solidario",
+      "type": "PDFCheckBox",
+      "options": ["/Si", "/No"],
+      "cell": ""
+    },
+    {
+      "name": "Antecesdentes Médico_¿?_5_Obligado Solidario",
+      "type": "PDFCheckBox",
+      "options": ["/Si", "/No"],
+      "cell": ""
+    },
+    {
+      "name": "Antecesdentes Médico_¿?_2_Coacreditado",
+      "type": "PDFCheckBox",
+      "options": ["/Si", "/No"],
+      "cell": ""
+    },
+    {
+      "name": "Antecesdentes Médico_¿?_3_Coacreditado",
+      "type": "PDFCheckBox",
+      "options": ["/Si", "/No"],
+      "cell": ""
+    },
+    {
+      "name": "Antecesdentes Médico_¿?_4_Coacreditado",
+      "type": "PDFCheckBox",
+      "options": ["/Si", "/No"],
+      "cell": ""
+    },
+    {
+      "name": "Antecesdentes Médico_¿?_5_Coacreditado",
+      "type": "PDFCheckBox",
+      "options": ["/Si", "/No"],
+      "cell": ""
+    },
+    {
+      "name": "Antecesdentes Médico_¿?_2_Titular",
+      "type": "PDFCheckBox",
+      "options": ["/S#ED", "/No"],
+      "cell": ""
+    },
+    {
+      "name": "Antecesdentes Médico_¿?_3_Titular",
+      "type": "PDFCheckBox",
+      "options": ["/S#ED", "/No"],
+      "cell": ""
+    },
+    {
+      "name": "Antecesdentes Médico_¿?_4_Titular",
+      "type": "PDFCheckBox",
+      "options": ["/S#ED", "/No"],
+      "cell": ""
+    },
+    {
+      "name": "Antecesdentes Médico_¿?_5_Titular",
+      "type": "PDFCheckBox",
+      "options": ["/S#ED", "/No"],
+      "cell": ""
+    },
+    {
+      "name": "Oferta Vinculante_Firma Solicitante",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Oferta Vinculante",
+      "type": "PDFCheckBox",
+      "options": ["/S#ED", "/No"],
+      "cell": ""
+    },
+    {
+      "name": "Personalidad",
+      "type": "PDFCheckBox",
+      "options": ["/S#ED", "/No"],
+      "cell": ""
+    },
+    {
+      "name": "Recomendaciones_Firma Solicitante",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Grupos económicos_Fima Solicitante",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Grupos económicos_Fima Coacreditado",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Grupos Economicos",
+      "type": "PDFCheckBox",
+      "options": ["/S#ED", "/No"],
+      "cell": ""
+    },
+    {
+      "name": "Auotorización-1_Fima Solicitante",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    {
+      "name": "Auotorización-1_Fima Coacreditado",
+      "type": "PDFTextField",
+      "cell": ""
+    },
+    { "name": "Auotorización_Lugar", "type": "PDFTextField", "cell": "" },
+    { "name": "Grupo económico", "type": "PDFTextField", "cell": "" },
+    {
+      "name": "Autorización",
+      "type": "PDFCheckBox",
+      "options": ["/S#ED", "/No"],
+      "cell": ""
+    }
+  ]
+}
